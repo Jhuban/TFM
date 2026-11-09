@@ -1,0 +1,17 @@
+{
+  "archivo_analizado": "RoseLeafInsight Original Image.zip",
+  "total_imagenes_en_zip": 3228,
+  "imagenes_procesadas": 3228,
+  "imagenes_no_procesadas": [],
+  "umbral_distancia_dhash_64bits": 4,
+  "umbral_distancia_ahash_64bits": 12,
+  "pares_candidatos_total": 78,
+  "pares_guardados_csv": 78,
+  "tope_guardado_csv": 3000,
+  "pares_con_clases_distintas": 8,
+  "pares_misma_clase": 70,
+  "pares_exactos_ya_detectados_segun_inventario": 2,
+  "pares_mostrados_en_contacto": 12,
+  "advertencia": "Son candidatos por dos hashes perceptuales, NO duplicados confirmados ni búsqueda exhaustiva de semejanza visual. Se requiere revisión humana antes de excluir o separar imágenes.",
+  "accion_sobre_zip_original": "Ninguna. Archivo original sin modificaciones."
+}

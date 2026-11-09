@@ -1,0 +1,12 @@
+{
+  "archivo_fuente": "RoseLeafInsight Original Image.zip",
+  "total_imagenes": 3228,
+  "imagenes_por_clase_inferida": {
+    "Black Spot": 409,
+    "Healthy": 1686,
+    "SIN_CLASE_IDENTIFICABLE": 453,
+    "Yellow Mosaic Virus": 680
+  },
+  "total_bytes_imagenes_sin_comprimir": 5150498197,
+  "nota": "Las clases se infieren de nombres de carpetas/archivos. Deben contrastarse con el articulo del dataset. Esto NO valida etiquetas, calidad, duplicados ni separacion entrenamiento/prueba."
+}

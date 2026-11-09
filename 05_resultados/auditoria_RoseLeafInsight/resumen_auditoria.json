@@ -1,0 +1,47 @@
+{
+  "archivo_analizado": "RoseLeafInsight Original Image.zip",
+  "imagenes": 3228,
+  "distribucion_clases": {
+    "Black Spot": 409,
+    "Healthy": 1686,
+    "Insect Hole": 453,
+    "Yellow Mosaic Virus": 680
+  },
+  "porcentaje_por_clase": {
+    "Black Spot": 12.67,
+    "Healthy": 52.23,
+    "Insect Hole": 14.03,
+    "Yellow Mosaic Virus": 21.07
+  },
+  "dimensiones_mas_comunes": [
+    {
+      "ancho": 3000,
+      "alto": 3000,
+      "cantidad": 2048
+    },
+    {
+      "ancho": 3024,
+      "alto": 3024,
+      "cantidad": 1179
+    },
+    {
+      "ancho": 1080,
+      "alto": 2400,
+      "cantidad": 1
+    }
+  ],
+  "imagenes_con_error": 0,
+  "errores_ejemplos": [],
+  "grupos_duplicados_exactos_sha256": 2,
+  "total_imagenes_en_grupos_duplicados": 4,
+  "tamano_mediano_bytes": 1663833,
+  "alertas": [
+    "Hay imágenes con contenido binario idéntico; revisar antes de particionar."
+  ],
+  "limitaciones": [
+    "Sin etiquetas clínicas independientes: las clases proceden de carpetas.",
+    "SHA-256 encuentra duplicados binarios, no imágenes visualmente similares recodificadas.",
+    "Esta auditoría no evalúa exactitud fitopatológica ni generalización en campo.",
+    "No se generan particiones train/validation/test: deben diseñarse tras revisar posibles duplicados y procedencia de capturas."
+  ]
+}
