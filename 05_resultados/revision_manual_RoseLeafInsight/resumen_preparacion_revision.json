@@ -1,0 +1,9 @@
+{
+  "dataset": "RoseLeafInsight Original Image.zip",
+  "numero_pares": 78,
+  "pares_con_etiquetas_distintas": 8,
+  "pares_exactos_reconocidos": 2,
+  "laminas_generadas": 10,
+  "decision_manual": "PENDIENTE",
+  "zip_original_modificado": false
+}

@@ -1,0 +1,4 @@
+﻿ruta_en_zip,clase,sha256,estado,evidencia,motivo
+Black Spot/IMG (103).jpg,Black Spot,6e7751c20a8028d11ff3ae02478d988b619acf90995a629b80f14b8ac9338ddf,EXCLUIR_PROPUESTO,PAR_01,Contenido idéntico con dos etiquetas diferentes; etiqueta sin resolver
+Healthy Leaf/IMG (1686).jpg,Healthy,24bd13d4a610d56c57726dd7503aca9d4b71f934b9d1b4be1b8fd9bf572d6086,EXCLUIR_PROPUESTO,PAR_02,Copia binaria redundante; se conserva ruta_a de la pareja
+Yellow Mosaic Virus/IMG (672).jpg,Yellow Mosaic Virus,6e7751c20a8028d11ff3ae02478d988b619acf90995a629b80f14b8ac9338ddf,EXCLUIR_PROPUESTO,PAR_01,Contenido idéntico con dos etiquetas diferentes; etiqueta sin resolver

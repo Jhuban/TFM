@@ -1,0 +1,54 @@
+{
+  "procedimiento": "propuesta de depuración lógica y partición estratificada",
+  "estado": "PLAN GENERADO; NO SE HAN EXTRAÍDO NI MODIFICADO LAS IMÁGENES",
+  "archivo_revision": "/mnt/data/planilla_revision_manual_revisada.csv",
+  "archivo_inventario": "/mnt/data/inventario_auditado.csv",
+  "semilla": 20261109,
+  "proporciones_objetivo": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "originales": 3228,
+  "exclusiones_propuestas": 3,
+  "candidatas": 3225,
+  "revision_pares": {
+    "CONFLICTO_ETIQUETA": 1,
+    "MISMA_FOTO": 1,
+    "DISTINTAS": 76
+  },
+  "particiones": {
+    "train": 2257,
+    "val": 484,
+    "test": 484
+  },
+  "particiones_por_clase": {
+    "Black Spot": {
+      "train": 286,
+      "val": 61,
+      "test": 61
+    },
+    "Healthy": {
+      "train": 1179,
+      "val": 253,
+      "test": 253
+    },
+    "Insect Hole": {
+      "train": 317,
+      "val": 68,
+      "test": 68
+    },
+    "Yellow Mosaic Virus": {
+      "train": 475,
+      "val": 102,
+      "test": 102
+    }
+  },
+  "advertencias": [
+    "La revisión por hashes perceptuales y visual no es exhaustiva.",
+    "No se dispone de identificadores de planta, sesión ni fecha de captura para garantizar independencia por origen.",
+    "Los datos de validación y prueba no deben someterse a data augmentation.",
+    "No se ha entrenado modelo alguno ni calculado métricas predictivas.",
+    "El ZIP original se conserva intacto."
+  ]
+}
